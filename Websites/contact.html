@@ -9,67 +9,100 @@
 </head>
 
 <body class="body">
-    <div class="banner">
-        <h2>ÚNETE A NUESTRO EQUIPO</h2>
-        <p>Nosotros en Tienda de Ahorro 3A estamos siempre en busca de personas apasionadas y comprometidas que quieran
-            formar parte de nuestro equipo. Si te interesa trabajar con nosotros, envíanos tu CV a nuestro correo
-        </p>
-        <img src="../Image/nosotros2.jpg" alt="TIENDAS DE AHORRO 3A">
-    </div>
-    <br>
-    <h1>FORMULARIO DE EMPLEO</h1>
-    <form method="post" action="">
-        Nombre completo: <input type="text" name="num1">
-        <p>
-            Número: <input type="text" name="num2">
-        <p>
-            Correo: <input type="text" name="num3">
-        <p>
-
-            <br><br>
-        <form method="post" action="">
-            SELECCIONAR EL DISTRITO DE RESIDENCIA:<p>
-                <input type="radio" name="c2">Lurin
+    <div class="contenido">
+        <div class="banner">
+            <h2 class="titulo-contacto">ÚNETE A NUESTRO EQUIPO</h2>
+            <p>Nosotros en Tienda de Ahorro 3A estamos siempre en busca de personas apasionadas y comprometidas que
+                quieran
+                formar parte de nuestro equipo. Si te interesa trabajar con nosotros, envíanos tu CV a nuestro correo
             </p>
-            <input type="radio" name="c2">Villa El Salvador</p>
-            <input type="radio" name="c2">San Juan de Miraflores</p>
-            <input type="radio" name="c2">Villa María del Triunfo</p>
+            <img src="../Image/nosotros2.jpg" alt="TIENDAS DE AHORRO 3A">
+        </div>
+        <h2 class="titulo-categorias">Sedes de Trabajo</h2>
 
-            <br><br>
+        <table class="tabla-sedes">
+            <thead>
+                <tr>
+                    <th>Sede</th>
+                    <th>Dirección</th>
+                    <th>Contacto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Norte</td>
+                    <td>Av. Los Olivos 123</td>
+                    <td>norte@3amarket.pe</td>
+                </tr>
+                <tr>
+                    <td>Centro</td>
+                    <td>Jr. Lima 456</td>
+                    <td>centro@3amarket.pe</td>
+                </tr>
+                <tr>
+                    <td>Sur</td>
+                    <td>Av. Pachacútec 789</td>
+                    <td>sur@3amarket.pe</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <h1>FORMULARIO DE EMPLEO</h1>
+        <form method="post" action="">
+            Nombre completo: <input type="text" name="num1">
+            <p>
+                Número: <input type="text" name="num2">
+            <p>
+                Correo: <input type="text" name="num3">
+            <p>
 
+                <br><br>
             <form method="post" action="">
-                SELECCIONAR EL GRADO INSTRUCCIÓN:<p>
-                    <input type=radio name="opc" value=1>Sin nivel educativo
-                <p>
-                    <input type=radio name="opc" value=2>Primaria incompleta/completa
-                <p>
-                    <input type=radio name="opc" value=3>Secundaria incompleta/completa
-                <p>
-                    <input type=radio name="opc" value=4>Edcuación superior incompleta/completa
-                <p>
+                SELECCIONAR EL DISTRITO DE RESIDENCIA:<p>
+                    <input type="radio" name="c2">Lurin
+                </p>
+                <input type="radio" name="c2">Villa El Salvador</p>
+                <input type="radio" name="c2">San Juan de Miraflores</p>
+                <input type="radio" name="c2">Villa María del Triunfo</p>
 
-                    <br><br>
+                <br><br>
+
                 <form method="post" action="">
-                    SELECCIONAR SU TPO DE DOCUMENTO DE IDENTIDAD:<p>
-                        <select name="xd">
-                            <option value=1>DNI</option>
-                            <option value=2>Pasaporte</option>
-                            <option value=3>Carné de Extranjería</option>
-
-                        </select>
+                    SELECCIONAR EL GRADO INSTRUCCIÓN:<p>
+                        <input type=radio name="opc" value=1>Sin nivel educativo
                     <p>
-                        Nro Documento: <input type="text" name="nm3">
+                        <input type=radio name="opc" value=2>Primaria incompleta/completa
                     <p>
-                        <br>
-                        <hr>
-                        <br>
-                        <input type="submit" value="ENVIAR">
-                        <input type="reset" value="BORRAR">
-                        <br>
-                        <br>
+                        <input type=radio name="opc" value=3>Secundaria incompleta/completa
+                    <p>
+                        <input type=radio name="opc" value=4>Edcuación superior incompleta/completa
+                    <p>
 
                         <br><br>
-                        <a href="../index.html">Volver a Principal</a>
+                    <form method="post" action="">
+                        SELECCIONAR SU TPO DE DOCUMENTO DE IDENTIDAD:<p>
+                            <select name="xd">
+                                <option value=1>DNI</option>
+                                <option value=2>Pasaporte</option>
+                                <option value=3>Carné de Extranjería</option>
+
+                            </select>
+                        <p>
+                            Nro Documento: <input type="text" name="nm3">
+                        <p>
+                            <br>
+                            <hr>
+                            <br>
+                            <input type="submit" value="ENVIAR">
+                            <input type="reset" value="BORRAR">
+                            <br>
+                            <br>
+
+                            <br><br>
+                            <a class="boton-volver" href="../index.html">Volver a Principal</a>
+
+    </div>
+
 </body>
 
 </html>
