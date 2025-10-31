@@ -1,0 +1,39 @@
+    .bg-beige {
+        background-color: #fdf6ec;
+    }
+
+    .text-orange {
+        color: #f57c00;
+    }
+
+    .producto-card {
+        border: 2px solid #f57c00;
+        border-radius: 12px;
+        transition: transform 0.3s ease;
+    }
+
+    .producto-card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+        font-weight: bold;
+        color: #e65100;
+    }
+
+    .precio {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #4e342e;
+    }
+
+    .btn-orange {
+        background-color: #f57c00;
+        color: white;
+        font-weight: bold;
+    }
+
+    .btn-orange:hover {
+        background-color: #e65100;
+    }

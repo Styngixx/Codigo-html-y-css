@@ -1,0 +1,70 @@
+    /* Fondo general */
+    .bg-beige {
+        background-color: #fdf6ec;
+    }
+
+    /* Fondo interno del card */
+    .bg-light-beige {
+        background-color: #fffaf2;
+    }
+
+    /* Títulos y acentos */
+    .text-orange {
+        color: #f57c00;
+    }
+
+    .table-orange {
+        background-color: #f57c00;
+    }
+
+    /* Botón principal */
+    .btn-orange {
+        background-color: #f57c00;
+        color: white;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+        border-radius: 8px;
+    }
+
+    .btn-orange:hover {
+        background-color: #e65100;
+    }
+
+    /* Card del carrito */
+    .card {
+        border-radius: 12px;
+        border: 2px solid #f57c00;
+    }
+
+    /* Tabla de productos */
+    table {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    th,
+    td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    th {
+        font-weight: bold;
+        color: white;
+    }
+
+    td {
+        color: #4e342e;
+    }
+
+    /* Título principal */
+    h1 {
+        font-weight: bold;
+        font-size: 2rem;
+    }
+
+    /* Total */
+    h4 {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }

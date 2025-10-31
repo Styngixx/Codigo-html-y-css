@@ -1,0 +1,110 @@
+    /* Reset básico */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Fondo general */
+    body.body {
+        background-color: #fdf6ec;
+        font-family: 'Segoe UI', sans-serif;
+        color: #4e342e;
+    }
+
+    /* Contenedor principal */
+    .contenido {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    /* Logo */
+    .logo {
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 200px;
+    }
+
+    /* Banner */
+    .banner img {
+        display: block;
+        margin: 0 auto;
+        max-height: 250px;
+        object-fit: cover;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+    }
+
+
+
+    /* Título de secciones */
+    .titulo-categorias {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #f57c00;
+        margin-bottom: 30px;
+    }
+
+    /* Categorías */
+    .categorias {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    .categoria-item {
+        text-align: center;
+        width: 200px;
+        padding: 15px;
+        background-color: #fffaf2;
+        border: 2px solid #f57c00;
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .categoria-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .categoria-item img {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+
+    .categoria-item a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #e65100;
+        font-size: 1.1rem;
+    }
+
+    .categoria-item a:hover {
+        color: #bf360c;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #ffe3c4;
+        border-top: 2px solid #f57c00;
+        border-radius: 12px;
+        margin-top: 40px;
+    }
+
+    footer h4 {
+        font-weight: bold;
+        color: #f57c00;
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+        color: #6d4c41;
+    }

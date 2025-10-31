@@ -1,0 +1,31 @@
+    /* Fondo cálido */
+    .bg-beige {
+        background-color: #fdf6ec;
+    }
+
+    .text-orange {
+        color: #f57c00;
+    }
+
+    /* Tarjetas del panel admin */
+    .admin-card {
+        background-color: #fffaf2;
+        border: 2px solid #f57c00;
+        border-radius: 12px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .admin-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        background-color: #ffe3c4;
+    }
+
+    .card-title {
+        font-weight: bold;
+        color: #e65100;
+    }
+
+    .card-text {
+        color: #6d4c41;
+    }

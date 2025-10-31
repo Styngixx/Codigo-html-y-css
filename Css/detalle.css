@@ -1,0 +1,30 @@
+    .bg-beige {
+        background-color: #fdf6ec;
+    }
+
+    .bg-light-beige {
+        background-color: #fffaf2;
+    }
+
+    .text-orange {
+        color: #f57c00;
+    }
+
+    .table-orange {
+        background-color: #f57c00;
+    }
+
+    .card {
+        border-radius: 12px;
+        border: 2px solid #f57c00;
+    }
+
+    .table th,
+    .table td {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    h2 {
+        font-weight: bold;
+    }

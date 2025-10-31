@@ -1,0 +1,45 @@
+    .bg-beige {
+        background-color: #fdf6ec;
+    }
+
+    .bg-light-beige {
+        background-color: #fffaf2;
+    }
+
+    .bg-orange {
+        background-color: #f57c00;
+    }
+
+    .btn-orange {
+        background-color: #f57c00;
+        color: white;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-orange:hover {
+        background-color: #e65100;
+    }
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .card {
+        border-radius: 12px;
+    }
+
+    .card-header h3 {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .form-label {
+        font-weight: 600;
+        color: #5d4037;
+    }
+
+    input,
+    textarea {
+        border-radius: 8px;
+    }
